@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Lab6.Country">
+    <Position X="1.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAoQAAgsEAAAKAQgCAAEIBgEAAACAAAAAAg=</HashCode>
+      <FileName>Entities\Country.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab6.Entities.CountryFederation">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAABAEAAACAAAEAgA=</HashCode>
+      <FileName>Entities\CountryFederation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab6.Entities.CountryUnitary">
+    <Position X="2.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAACABEAAAEAAAAAAAAABAEAAgIAAAAAAA=</HashCode>
+      <FileName>Entities\CountryUnitary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Lab6.Interfaces.ICalculateDebt" Collapsed="true">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAgIAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICalculateDebt.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Lab6.Interfaces.IMarketRelationship" Collapsed="true">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAACABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IMarketRelationship.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
