@@ -17,7 +17,7 @@ namespace Lab7_2
             Entities.CountryUnitary cu1 = (Entities.CountryUnitary)nskobl;
 
             Console.WriteLine("{0}", cu1);
-            Console.WriteLine("Карина - всё сложно...!")
+           
 
         }
     }
