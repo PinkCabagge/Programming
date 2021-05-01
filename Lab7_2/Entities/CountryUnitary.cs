@@ -6,34 +6,13 @@ namespace Lab7_2.Entities
 {
     class CountryUnitary: Country
     {
-        public decimal Debt
-        {
-            get
-            {
-                return this.currentdebt;
-            }
-            set
-            {
-                this.currentdebt = value;
-            }
-        }
-        public decimal TradeBalance
-        {
-            get
-            {
-                return this.currenttradebalance;
-            }
-            set
-            {
-                this.currenttradebalance = value;
-            }
-        }
+        
 
         public CountryUnitary()
         {
 
         }
-        public CountryUnitary(string n, string c, string r, string l, string m, int p, double t, int y, decimal ctb, decimal d) : base(n, c, r, l, m, y, ctb, d)//конструктрор, куда из базового класса перенеслись параметры
+        public CountryUnitary(string n, string c, string r, string l, string m, int p, double t, int y) : base(n, c, r, l, m, y)//конструктрор, куда из базового класса перенеслись параметры
         {
             this.Population = p;
             this.Territory = t;
