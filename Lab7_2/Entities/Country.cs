@@ -14,8 +14,6 @@ namespace Lab7_2
         int population;
         double territory;
         int yearoffoundation;
-        protected decimal currenttradebalance;
-        protected decimal currentdebt;
         public string Name
         {
             get
@@ -96,7 +94,7 @@ namespace Lab7_2
         {
 
         }
-        public Country(string n, string c, string r, string l, string m, int y, decimal ctb, decimal d)
+        public Country(string n, string c, string r, string l, string m, int y)
         {
             this.name = n;
             this.capital = c;
@@ -104,8 +102,7 @@ namespace Lab7_2
             this.language = l;
             this.moneyunit = m;
             this.yearoffoundation = y;
-            this.currenttradebalance = ctb;
-            this.currentdebt = d;
+            
         }
 
         abstract public double CalculateTerritory();
@@ -113,8 +110,8 @@ namespace Lab7_2
         public override string ToString()
         {
 
-            return String.Format("\nНазвание страны: {0};\nСтолица: {1};\nПравитель: {2};\nЯзык: {3};\nДенежная единица: {4};\nНаселение: {5} чел.;\nТерритория: {6}км^2;\nГод основания: {7};\nТекущее сальдо торгового балланса: {8};\nТекущий государственный долг: {9};\n", this.name, this.capital, this.ruler, this.language,
-                this.moneyunit, this.population, this.territory, this.yearoffoundation, this.currenttradebalance, this.currentdebt);
+            return String.Format("\nНазвание страны: {0};\nСтолица: {1};\nПравитель: {2};\nЯзык: {3};\nДенежная единица: {4};\nНаселение: {5} чел.;\nТерритория: {6}км^2;\nГод основания: {7};\n", this.name, this.capital, this.ruler, this.language,
+                this.moneyunit, this.population, this.territory, this.yearoffoundation);
         }
         public virtual void PrintCard()
         {

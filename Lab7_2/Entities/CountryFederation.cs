@@ -14,12 +14,12 @@ namespace Lab7_2.Entities
             this.fdrts = new FederationSubject[0];
 
         }
-        public CountryFederation(string n, string c, string r, string l, string m,  int y, decimal ctb, decimal d) : base(n, c, r, l, m, y, ctb, d)
+        public CountryFederation(string n, string c, string r, string l, string m,  int y) : base(n, c, r, l, m, y)
         {
 
             this.fdrts = new FederationSubject[0];
         }
-        public CountryFederation(string n, string c, string r, string l, string m,  int y, decimal ctb, decimal d, FederationSubject[] fd) : base(n, c, r, l, m, y, ctb, d)
+        public CountryFederation(string n, string c, string r, string l, string m,  int y, FederationSubject[] fd) : base(n, c, r, l, m, y)
         {
             this.fdrts = fd;
 
@@ -62,5 +62,7 @@ namespace Lab7_2.Entities
             Console.WriteLine("Федеративное государство:\n");
             base.PrintCard();
         }
+
+       
     }
 }
