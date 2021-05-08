@@ -25,11 +25,12 @@ namespace Lab7_2
 
             Entities.FederationSubject nskobl = new Entities.FederationSubject(54,"Новосибирск", "Новосибирская область", 700, 400);
 
-            //Console.WriteLine(nskobl.name);
+            Console.WriteLine(nskobl.name);
 
             Entities.CountryUnitary cu1 = (Entities.CountryUnitary)nskobl;
 
             Console.WriteLine("{0}", cu1);
+
            
 
         }
