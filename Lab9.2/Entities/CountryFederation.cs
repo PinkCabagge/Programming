@@ -1,8 +1,8 @@
-﻿дusing System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Lab8_1.Entities
+namespace Lab9._2.Entities
 {
     class CountryFederation<T>: Country
     {
