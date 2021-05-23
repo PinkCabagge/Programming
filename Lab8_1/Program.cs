@@ -6,6 +6,7 @@ namespace Lab8_1
     {
         static void Main(string[] args)
         {
+            
             Entities.FederationSubject <int> altairegion = new Entities.FederationSubject<int>(22, "Барнаул", "Алтайский край", 30, 300, 10);
             Entities.FederationSubject<int> altairepublic = new Entities.FederationSubject<int>(04, "Горно-Алтайск", "Республика Алтай", 450, 200,20);
             Entities.FederationSubject<int> nskobl = new Entities.FederationSubject<int>(54, "Новосибирск", "Новосибирская область", 700, 400,30);
@@ -20,6 +21,7 @@ namespace Lab8_1
             fed1.CalculateTerritory();
 
             Console.WriteLine("\n{0}", fed1);
+
 
 
             Entities.CountryFederation<string> fed2 = new Entities.CountryFederation<string>("Соединённые Штаты Америки", "Вашингтон", "Джозеф Робинетт Байден", "Английский язык", "Доллар США", 1776);

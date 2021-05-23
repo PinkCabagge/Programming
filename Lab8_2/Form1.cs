@@ -49,5 +49,7 @@ namespace Lab8_2
             mgr1.Perform();
             this.button1.PerformClick();
         }
+
+        
     }
 }
