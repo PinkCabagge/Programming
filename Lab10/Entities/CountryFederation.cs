@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab10.Entities
 {
-    class CountryFederation: Country
+    public class CountryFederation: Country
     {
         FederationSubject[] fdrts;
 

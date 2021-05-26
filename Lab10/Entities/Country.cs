@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab10
 {
-    abstract class Country
+    public abstract class Country
     {
         string name;
         string capital;

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab10.Entities
 {
-    class CountryUnitary: Country
+    public class CountryUnitary: Country
     {
         public CountryUnitary(string n, string c, string r, string l, string m, int p, double t, int y) : base(n, c, r, l, m, y)//конструктрор, куда из базового класса перенеслись параметры
         {

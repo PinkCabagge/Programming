@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab10.Entities
 {
-    class FederationSubject
+    public class FederationSubject
     {
         int id;
         string name;
