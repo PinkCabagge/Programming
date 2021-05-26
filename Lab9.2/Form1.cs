@@ -25,6 +25,10 @@ namespace Lab9._2
             Entities.CountryUnitary ctr = new Entities.CountryUnitary(this.textBox1.Text,this.textBox3.Text,this.textBox2.Text,this.textBox4.Text,this.textBox5.Text,(int)this.numericUpDown1.Value, (double)this.numericUpDown2.Value, (int)this.numericUpDown3.Value);
             ctrun_list.Add(ctr);
             this.listBox1.Items.Add(ctr);
+            this.dataGridView1.Columns.Add("id","Id");
+            
+            this.dataGridView1.Rows.Add(ctr);
+            //this.dataGridView1[0, 0].Value = 2;
             //this.listBox1.DataSource = ctrun_list;
             MessageBox.Show(String.Format("{0}",ctrun_list.Count));
             
